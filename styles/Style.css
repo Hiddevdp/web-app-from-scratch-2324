@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient (45deg, blue, red);
+  background: linear-gradient(45deg, rgb(35, 35, 35), red);
   color: white;
   font-family: segoe UI;
   margin: 0;
