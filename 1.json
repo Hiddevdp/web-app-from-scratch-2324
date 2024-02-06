@@ -1,0 +1,11 @@
+{
+  "Name": "Hidde van der Plaat",
+  "dayOfBirth": { "year": "1999", "month": "3", "day": "25" },
+  "avatar": "jdka;ffjdkal",
+  "city": "Amsterdam",
+  "favoriete huisdieren": [
+    { "diersoort": "Kat", "naam": "Lola" },
+    { "Diersoort": "Hond", "Naam": "Fox" }
+  ],
+  "openForJobProposals": true
+}
