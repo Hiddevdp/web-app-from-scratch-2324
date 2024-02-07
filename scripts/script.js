@@ -10,6 +10,7 @@ function flip(event) {
     if (article !== event.currentTarget) {
       var otherContent = article.querySelector("div");
       otherContent.classList.remove("content");
+      // all other flipped cards flip back on click
 
       var otherHgroup = article.querySelector("hgroup");
       otherHgroup.classList.remove("opacity");
@@ -20,6 +21,7 @@ function flip(event) {
 articles.forEach(function (article) {
   article.addEventListener("click", flip);
 });
+// eventlistener
 
 // async function ophalen() {
 //   const response = await fetch("./scripts/info.json");
