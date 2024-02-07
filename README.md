@@ -2,8 +2,8 @@
 
 In dit vak gaan we een web applicatie bouwen en leren hoe deze werken door zo min mogelijk libraries, frameworks of
 andere bronnen te importen (vanilla) en zoveel mogelijk het browser platform te gebruiken door middel van HTML, CSS &
-JavaScript.    
-Het eindresultaat is een modulaire, single page web app (SPA), beoordeeld op jouw niveau en eigen leerdoelen.    
+JavaScript.  
+Het eindresultaat is een modulaire, single page web app (SPA), beoordeeld op jouw niveau en eigen leerdoelen.  
 De bedoeling is om een web app te bouwen die data ophaalt van een externe API, deze manipuleert om te tonen in de UI van
 de App, hoe abstract dan ook.
 Je gaat bekende patterns leren toe passen bij het bouwen en testen van de applicatie voor een eigen "WebSite" en een
@@ -13,6 +13,7 @@ Daarnaast zal je tijdloze kennis opdoen over het de aard en het gebruik van data
 frameworks en de werking van het web.
 
 ## Assignment
+
 1. Bouw je eigen SPA/WebSite met externe data van een API, minimaal 1 micro interactie.
 2. Een TeamApp met een verzameling van alle losse websites van je teamleden
 
@@ -20,10 +21,10 @@ frameworks en de werking van het web.
 
 ## Program
 
-| Planning | Maandag               | Dinsdag                | Woensdag                           | Donderdag                   | Vrijdag                                   |
-|----------|-----------------------|------------------------|------------------------------------|-----------------------------|-------------------------------------------|
-|          | Kick-Off, Dev WebSite | Dev TeamApp, Workshops | Dev *, Weekly nerd                 | Dev *, Workshops            | Code review, Voortgangsgesprekken, Dev *  |
-|          | Dev *, Workshops      | College + Workshops    | Dev *, Weekly nerd, Deadline 23:59 | Mondeling, Weekly Nerd Blog | Reparatiegesprekken, Afsluiting, 🍻 Fest? |
+| Planning | Maandag               | Dinsdag                | Woensdag                            | Donderdag                   | Vrijdag                                   |
+| -------- | --------------------- | ---------------------- | ----------------------------------- | --------------------------- | ----------------------------------------- |
+|          | Kick-Off, Dev WebSite | Dev TeamApp, Workshops | Dev \*, Weekly nerd                 | Dev \*, Workshops           | Code review, Voortgangsgesprekken, Dev \* |
+|          | Dev \*, Workshops     | College + Workshops    | Dev \*, Weekly nerd, Deadline 23:59 | Mondeling, Weekly Nerd Blog | Reparatiegesprekken, Afsluiting, 🍻 Fest? |
 
 ## Rubric
 
@@ -34,35 +35,31 @@ we denken dat een verbetering zijn op het criterium.
 
 TBA
 
-[//]: # ()
-[//]: # (| Deficiency | Criterion                                                                                                                                                                              | Improvement |)
+[//]: #
+[//]: # "| Deficiency | Criterion                                                                                                                                                                              | Improvement |"
+[//]: # "|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------|"
+[//]: # "|            | *User Interface* - you design, build and test the user interface by applying interface design principles                                                                               |             |"
+[//]: # "|            | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |             |"
+[//]: # "|            | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html      |             |"
+[//]: # "|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |"
 
-[//]: # (|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------|)
+# Procesverslag
 
-[//]: # (|            | *User Interface* - you design, build and test the user interface by applying interface design principles                                                                               |             |)
+Github Repo:
+☝️ replace this description with a description of your own work -->
 
-[//]: # (|            | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |             |)
+replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍
 
-[//]: # (|            | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html      |             |)
+Add a nice poster image here at the end of the week, showing off your shiny frontend 📸
 
-[//]: # (|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |)
+Maybe a table of contents here? 📚
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+How about a section that describes how to install this project? 🤓
 
-<!-- ☝️ replace this description with a description of your own work -->
+...but how does one use this project? What are its features 🤔
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+What external data source is featured in your project and what are its properties 🌠
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+Maybe a checklist of done stuff and stuff still on your wishlist? ✅
 
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+How about a license here? 📜 (or is it a licence?) 🤷
