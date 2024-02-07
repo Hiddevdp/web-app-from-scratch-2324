@@ -5,6 +5,16 @@ function flip(event) {
   content.classList.toggle("content");
   var hgroup = event.currentTarget.querySelector("hgroup");
   hgroup.classList.toggle("opacity");
+
+  articles.forEach(function (article) {
+    if (article !== event.currentTarget) {
+      var otherContent = article.querySelector("div");
+      otherContent.classList.remove("content");
+
+      var otherHgroup = article.querySelector("hgroup");
+      otherHgroup.classList.remove("opacity");
+    }
+  });
 }
 
 articles.forEach(function (article) {
