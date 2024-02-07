@@ -84,7 +84,6 @@ article {
   flex-direction: column;
   align-items: start;
   height: 15em;
-
   position: relative;
 }
 
@@ -95,7 +94,7 @@ hgroup {
   margin: 0 2em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .card > div > div:first-of-type {
@@ -107,7 +106,7 @@ hgroup {
 }
 
 .card > div > div > video {
-  margin: -10em 0;
+  margin: -6em 0;
   position: absolute;
   align-self: center;
   justify-self: center;
@@ -119,8 +118,14 @@ hgroup {
     height: 10em;
   }
   article video {
-    margin: -3em 0;
-    width: 130%;
+    margin: -3.5em 0 !important;
+    width: 150% !important;
+  }
+  .front h1 {
+    font-size: 1em;
+  }
+  .front p {
+    font-size: 0.75em;
   }
 }
 ul {
@@ -132,11 +137,17 @@ ul:first-of-type {
   grid-column: 1;
 }
 
-.card {
-  perspective: 500px;
+article {
+  perspective: 1000px;
+  transition: 0.3s;
 }
 
-.content {
+article:hover {
+  transform: scale(1.05);
+  z-index: 99;
+}
+
+article > div {
   position: relative;
   width: 100%;
   height: 100%;
@@ -145,13 +156,13 @@ ul:first-of-type {
   transform-style: preserve-3d;
 }
 
-.card:hover .content {
+.content {
   transform: rotateX(180deg);
-  transition: transform 0.5s;
 }
 
-.card:hover hgroup {
+.opacity {
   opacity: 0;
+  transition: 0.375s;
 }
 
 .front,
@@ -167,7 +178,7 @@ ul:first-of-type {
   transform: rotateX(180deg);
   backface-visibility: hidden;
   display: grid;
-  grid-template: 1fr 1.5fr/1fr 1fr;
+  grid-template: 1fr 1.5fr/2fr 1fr;
 }
 
 .back ul {
@@ -185,6 +196,15 @@ ul:first-of-type {
   align-self: center;
   justify-self: center;
   border-radius: 1em;
+}
+
+@media (max-width: 576px) {
+  .back img {
+    height: 6em;
+  }
+  .back li {
+    font-size: 0.75em;
+  }
 }
 
 /* https://codepen.io/edeesims/pen/wvpYWW */
