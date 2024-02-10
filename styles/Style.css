@@ -27,7 +27,7 @@ nav h1 {
 }
 
 main {
-  margin: 0 20em;
+  margin: 0 20vw;
 }
 
 @media (max-width: 576px) {
@@ -145,6 +145,7 @@ article {
 article:hover {
   transform: scale(1.05);
   z-index: 99;
+  cursor: pointer;
 }
 
 article > div {
