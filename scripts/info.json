@@ -1,11 +1,20 @@
 {
-  "Name": "Hidde van der Plaat",
-  "dayOfBirth": { "year": "1999", "month": "3", "day": "25" },
-  "avatar": "jdka;ffjdkal",
-  "city": "Amsterdam",
-  "favoriete huisdieren": [
-    { "diersoort": "Kat", "naam": "Lola" },
-    { "Diersoort": "Hond", "Naam": "Fox" }
-  ],
-  "openForJobProposals": true
+  "info": [
+    {
+      "firstName": "Hidde",
+      "lastName": "van der Plaat",
+      "age": "24",
+      "favoriet_genre": "Hip-hop",
+      "avatar_url": "./media/hidde.jpg",
+      "city": "Amsterdam",
+      "hobbies": ["Films", " muziek", " sporten", " reizen"],
+      "bio": "",
+      "truthsAndLies": [
+        "Ik ben frans",
+        "ik heb groen haar",
+        "ik eet graag soep"
+      ],
+      "favouriteAnimal": "Sloth"
+    }
+  ]
 }

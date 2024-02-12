@@ -137,6 +137,11 @@ ul:first-of-type {
   grid-column: 1;
 }
 
+label {
+  font-weight: bold;
+  color: gray;
+}
+
 article {
   perspective: 1000px;
   transition: 0.3s;
