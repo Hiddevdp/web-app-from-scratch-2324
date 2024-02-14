@@ -49,6 +49,9 @@ function insert(json, songs) {
     const hobbies = item.hobbies;
     const bio = item.bio;
     const truthsAndLies = item.truthsAndLies;
+Object.values(json.info).forEach((item) => {
+    const info = document.querySelector("#info");
+    const name = item
 
     const html = `<h2>Persoonlijke gegevens</h2>
             <ul> 
