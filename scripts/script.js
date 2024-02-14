@@ -8,11 +8,11 @@ function flip(event) {
 
   articles.forEach(function (article) {
     if (article !== event.currentTarget) {
-      var otherContent = article.querySelector("div");
+      let otherContent = article.querySelector("div");
       otherContent.classList.remove("content");
       // all other flipped cards flip back on click
 
-      var otherHgroup = article.querySelector("hgroup");
+      let otherHgroup = article.querySelector("hgroup");
       otherHgroup.classList.remove("opacity");
     }
   });

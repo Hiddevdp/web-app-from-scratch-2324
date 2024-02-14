@@ -1,0 +1,39 @@
+{
+  "songs": [
+    {
+      "name": "Gone",
+      "artist": "Mr Probz ft. Anderson .Paak",
+      "album": "Gone",
+      "year": "2017",
+      "length": "3:40"
+    },
+    {
+      "name": "Risk",
+      "artist": "FKJ & Bas",
+      "album": "Gone",
+      "year": "2017",
+      "length": "3:40"
+    },
+    {
+      "name": "Mystery Lady",
+      "artist": "Masego ft. Don Toliver",
+      "album": "Gone",
+      "year": "2017",
+      "length": "3:40"
+    },
+    {
+      "name": "Better Now",
+      "artist": "Post Malone",
+      "album": "Gone",
+      "year": "2017",
+      "length": "3:40"
+    },
+    {
+      "name": "Starboy",
+      "artist": "Mr Probz ft. Anderson .Paak",
+      "album": "Gone",
+      "year": "2017",
+      "length": "3:40"
+    }
+  ]
+}

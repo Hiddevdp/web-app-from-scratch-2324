@@ -8,11 +8,11 @@
       "avatar_url": "./media/hidde.jpg",
       "city": "Amsterdam",
       "hobbies": ["Films", " muziek", " sporten", " reizen"],
-      "bio": "",
+      "bio": "Ik ben Hidde en ben student op CMD. Ik kom oorspronkelijk uit een dorp maar woon nu in Amsterdam.",
       "truthsAndLies": [
-        "Ik ben frans",
-        "ik heb groen haar",
-        "ik eet graag soep"
+        "Ik spreek vloeiend frans",
+        "Ik hou van films",
+        "Ik heb nog nooit iets gebroken"
       ],
       "favouriteAnimal": "Sloth"
     }
