@@ -5,35 +5,45 @@
       "artist": "Mr Probz ft. Anderson .Paak",
       "album": "Gone",
       "year": "2017",
-      "length": "3:40"
+      "length": "3:40",
+      "cover": "./media/GoneCover.jpg",
+      "video": "./media/Gone.mp4"
     },
     {
       "name": "Risk",
       "artist": "FKJ & Bas",
-      "album": "Gone",
-      "year": "2017",
-      "length": "3:40"
+      "album": "Risk",
+      "year": "2019",
+      "length": "3:58",
+      "cover": "./media/RiskCover.jpg",
+      "video": "./media/Risk.mp4"
     },
     {
       "name": "Mystery Lady",
       "artist": "Masego ft. Don Toliver",
-      "album": "Gone",
-      "year": "2017",
-      "length": "3:40"
+      "album": "Studying Abroad: Extended Stay",
+      "year": "2020",
+      "length": "3:48",
+      "cover": "./media/MysteryLadyCover.jpg",
+      "video": "./media/Mystery Lady.mp4"
     },
     {
       "name": "Better Now",
       "artist": "Post Malone",
-      "album": "Gone",
-      "year": "2017",
-      "length": "3:40"
+      "album": "Beerbongs & Bentleys",
+      "year": "2018",
+      "length": "3:51",
+      "cover": "./media/BetterNowCover.jpg",
+      "video": "./media/Better Now.mp4"
     },
     {
       "name": "Starboy",
-      "artist": "Mr Probz ft. Anderson .Paak",
-      "album": "Gone",
-      "year": "2017",
-      "length": "3:40"
+      "artist": "The Weeknd ft. Daft Punk",
+      "album": "Starboy",
+      "year": "2016",
+      "length": "3:50",
+      "cover": "./media/StarboyCover.jpg",
+      "video": "./media/Starboy.mp4"
     }
   ]
 }

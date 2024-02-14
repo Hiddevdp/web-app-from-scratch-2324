@@ -27,12 +27,15 @@ articles.forEach(function (article) {
 async function ophalen() {
   const response = await fetch("./info.json");
   const json = await response.json();
+  const songlist = await fetch("./songs.json");
+  const songs = await songlist.json();
   console.log(json);
-  insert(json);
+  console.log(songs);
+  insert(json, songs);
 }
 ophalen();
 
-function insert(json) {
+function insert(json, songs) {
   Object.values(json.info).forEach((item) => {
     const info = document.querySelector("#info");
 
