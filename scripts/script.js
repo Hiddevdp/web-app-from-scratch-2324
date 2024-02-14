@@ -25,7 +25,7 @@ articles.forEach(function (article) {
 // eventlistener
 
 async function ophalen() {
-  const response = await fetch("./scripts/info.json");
+  const response = await fetch("./info.json");
   const json = await response.json();
   console.log(json);
   insert(json);
